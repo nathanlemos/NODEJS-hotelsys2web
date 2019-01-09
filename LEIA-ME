@@ -1,0 +1,22 @@
+Instalar node (Recommended For Most Users):
+https://nodejs.org/en/
+
+Instalar Vertrigo serv (Ou outro servidor com banco de dados MySQL):
+https://www.vswamp.com/?lang=pt
+
+Criar Banco com nome hotel e a tabela abaixo:
+
+CREATE TABLE `tabela` (
+  `val1` varchar(50) NOT NULL,
+  `val2` varchar(50) NOT NULL,
+  `val3` varchar(50) NOT NULL,
+  `val4` varchar(50) NOT NULL,
+  `val5` varchar(50) NOT NULL,
+  `val6` varchar(50) NOT NULL,
+  `val7` varchar(50) NOT NULL,
+  `val8` varchar(50) NOT NULL,
+  `val9` varchar(50) NOT NULL,
+  `val10` varchar(50) NOT NULL,
+  `val11` varchar(50) NOT NULL,
+  `val12` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
